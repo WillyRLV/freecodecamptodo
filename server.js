@@ -5,7 +5,7 @@ const myDB = require('./connection');
 const fccTesting = require('./freeCodeCamp/fcctesting.js');
 
 const app = express();
-// add engine template
+
 app.set('view engine', 'pug');
 app.set('views', './views/pug')
 
